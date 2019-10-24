@@ -1,0 +1,22 @@
+.cards{
+font-size: 1.5rem;
+color:white;
+display: flex;
+
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    border:1px solid black;
+    text-align: center;
+    background-color: gray;
+    margin:5px;
+}
+ .card .body {
+    padding:5px;
+    flex: 1;
+}
+footer{
+    background-color: brown;
+}
