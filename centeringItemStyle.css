@@ -1,0 +1,16 @@
+.contaner{
+   border:1px solid black;
+   height: 600px;
+   width:600px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.item{
+    background-color:orange;
+    height: 300px;
+   width:300px;
+   text-align: center;
+   font-size: 2rem;
+ 
+}
