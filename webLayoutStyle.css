@@ -1,0 +1,26 @@
+body{
+    margin:0;
+    height: 100%;
+font-size: 2rem;
+text-align: center;
+
+}
+main{
+    display:flex;
+    justify-content: space-around;
+    align-content: stretch;
+    padding: 4px ;
+    
+}
+header , nav,article, aside,footer {
+
+    background-color: rgb(149, 180, 238);
+    
+}
+nav,article, aside{
+    flex-grow: 1;
+}
+article{
+    padding-left: 4px ;
+    flex-grow:2;
+}
